@@ -1,0 +1,64 @@
+
+@import "baseStyle.css";
+
+.top-container {
+    background-color: #333333;
+    padding: 10px;
+}
+
+.top-container .top-user {
+    width: 100%;
+    display: flex;
+}
+
+.top-container .top-user li{
+    margin: 5px;
+}
+
+.top-container .top-user a {
+    color: white;
+}
+
+.top-container .navBar .nav-container {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.top-container .navBar .nav-container li {
+    margin: 0 5px;
+    color: white;
+    width: 100px;
+    /*height: 40px;*/
+    text-align: center;
+    line-height: 40px;
+}
+
+.top-container .navBar .nav-container li:hover {
+    background-color: #ff7742;
+}
+
+.main-container {
+    padding: 5px 20px;
+}
+
+.main-container .goods-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .goods-container li {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #cccccc;
+    text-align: center;
+}
+
+.main-container .goods-container li:hover {
+    opacity: 0.7;
+    box-shadow: 3px 3px #bbbbbb;
+}
+
+.main-container .goods-container img {
+    height: 200px;
+}
